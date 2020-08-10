@@ -3,7 +3,7 @@ Generate homophone jokes with trivial NLP techniques. 谐音笑话生成
 
 ## Requirements
 
-- Ruby (> 2.7)
+- Ruby (>= 2.7)
 - Redis
 
 ## Usage
