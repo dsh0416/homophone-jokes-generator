@@ -11,7 +11,7 @@ class Pinyin < Ohm::Model
 end
 
 def convert_pinyin_t(pinyin)
-  result = pinyin
+  result = pinyin.clone
   result.gsub!('ā', 'a')
   result.gsub!('á', 'a')
   result.gsub!('ǎ', 'a')

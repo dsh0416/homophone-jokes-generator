@@ -1,11 +1,23 @@
 # homophone-jokes-generator
 Generate homophone jokes with trivial NLP techniques. 谐音笑话生成
 
+## Requirements
+
+- Redis
+
+## Usage
+
+Run once if you don't have data prepared in your Redis.
+```
+> ruby prepare.rb
+```
+
+For creation
 ```
 > ruby create.rb
 Usage: ruby create.rb [sentence] [tone-sensitive: true/false]
 
-> ruby create.rb 我笑话水平很差 true
+> ruby create.rb 我笑话水平很差 false
 我宵话水平很差
 我小话水平很差
 我枭猾水平很差
