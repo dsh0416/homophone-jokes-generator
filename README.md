@@ -47,4 +47,5 @@ Usage: ruby create.rb [sentence] [tone-sensitive: true/false]
 ```
 
 我笑话水平很差，经常胃痛。
+
 很多公司开会讲究发言顺序，毕竟大家一起发炎的话，就没人来上班了。
