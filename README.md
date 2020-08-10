@@ -3,16 +3,22 @@ Generate homophone jokes with trivial NLP techniques. 谐音笑话生成
 
 ## Requirements
 
+- Ruby (> 2.7)
 - Redis
 
 ## Usage
+
+Install dependencies of Ruby
+```
+> bundle install
+```
 
 Run once if you don't have data prepared in your Redis.
 ```
 > ruby prepare.rb
 ```
 
-For creation
+For creation,
 ```
 > ruby create.rb
 Usage: ruby create.rb [sentence] [tone-sensitive: true/false]
