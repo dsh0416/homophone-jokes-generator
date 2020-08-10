@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hiredis (0.6.3)
+    jieba_rb (0.0.5)
+    nest (3.2.0)
+      redic
+    ohm (3.1.1)
+      nest (~> 3)
+      redic (~> 1.5.0)
+      stal
+    redic (1.5.3)
+      hiredis
+    stal (0.3.0)
+      redic (~> 1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jieba_rb
+  ohm (~> 3.1)
+
+BUNDLED WITH
+   2.1.4
